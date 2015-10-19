@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /uploader/projects/Nancy_Singer/Nancy_SInger_Final_FEWD/

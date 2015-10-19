@@ -1,0 +1,240 @@
+
+.projects-index,.projects-by_program,.projects-employers {
+    text-align: center
+}
+
+.projects-index .headline,.projects-by_program .headline,.projects-employers .headline {
+    font-size: 100px
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .headline,.projects-by_program .headline,.projects-employers .headline {
+        display:none
+    }
+}
+
+.projects-index a.learn,.projects-by_program a.learn,.projects-employers a.learn {
+    text-decoration: underline
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index a.learn,.projects-by_program a.learn,.projects-employers a.learn {
+        display:block
+    }
+}
+
+.projects-index .learn-footer,.projects-by_program .learn-footer,.projects-employers .learn-footer {
+    min-width: 480px;
+    margin-left: 0;
+    padding: 0;
+    padding-top: 15px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-bottom: 0;
+    z-index: 79
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .learn-footer,.projects-by_program .learn-footer,.projects-employers .learn-footer {
+        padding-top:10px;
+        height: 60px;
+        font-size: .8em;
+        text-align: left;
+        max-width: 400px
+    }
+
+    .projects-index .learn-footer .mobile-center,.projects-by_program .learn-footer .mobile-center,.projects-employers .learn-footer .mobile-center {
+        text-align: center;
+        width: 300px;
+        margin-bottom: 10px
+    }
+}
+
+.projects-index .projects,.projects-by_program .projects,.projects-employers .projects {
+    padding: 0;
+    margin: 50px 0 20px 0
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .projects,.projects-by_program .projects,.projects-employers .projects {
+        padding-top:0px;
+        margin-top: 0px
+    }
+}
+
+.projects-index .projects .project,.projects-by_program .projects .project,.projects-employers .projects .project {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top
+}
+
+.projects-index .projects .project .project-image,.projects-by_program .projects .project .project-image,.projects-employers .projects .project .project-image {
+    width: 400px;
+    height: 300px;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    background-size: cover !important;
+    position: relative;
+    display: block
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .projects .project .project-image,.projects-by_program .projects .project .project-image,.projects-employers .projects .project .project-image {
+        width:276px;
+        height: 207px
+    }
+}
+
+.projects-index .projects .project .project-image .course-mark,.projects-by_program .projects .project .project-image .course-mark,.projects-employers .projects .project .project-image .course-mark {
+    left: -20px;
+    top: -20px;
+    z-index: 78
+}
+
+.projects-index .projects .project .project-image .course-mark:hover,.projects-by_program .projects .project .project-image .course-mark:hover,.projects-employers .projects .project .project-image .course-mark:hover {
+    background: #ff0033
+}
+
+.projects-index .projects .project .project-image .description,.projects-by_program .projects .project .project-image .description,.projects-employers .projects .project .project-image .description {
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    opacity: 0;
+    -webkit-transition: opacity .4s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 80px 20px
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .projects .project .project-image .description,.projects-by_program .projects .project .project-image .description,.projects-employers .projects .project .project-image .description {
+        padding:20px
+    }
+}
+
+.projects-index .projects .project .project-image .description .project-meta,.projects-by_program .projects .project .project-image .description .project-meta,.projects-employers .projects .project .project-image .description .project-meta {
+    font-size: 16px;
+    margin-bottom: 0
+}
+
+.projects-index .projects .project.hover .description,.projects-by_program .projects .project.hover .description,.projects-employers .projects .project.hover .description {
+    opacity: 1
+}
+
+.projects-index .projects .project .project-name,.projects-by_program .projects .project .project-name,.projects-employers .projects .project .project-name {
+    font-size: 24px;
+    text-align: left
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .projects .project .project-name,.projects-by_program .projects .project .project-name,.projects-employers .projects .project .project-name {
+        width:280px
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .projects .project .project-name .name,.projects-by_program .projects .project .project-name .name,.projects-employers .projects .project .project-name .name {
+        max-width:150px;
+        display: inline-block
+    }
+}
+
+.projects-index .projects .project .project-name .user,.projects-by_program .projects .project .project-name .user,.projects-employers .projects .project .project-name .user {
+    color: #aaa;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: none;
+    font-family: "News706BT-RomanC", Georgia;
+    display: block;
+    margin-top: 6px;
+    width: 400px;
+    line-height: 1.4
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .projects .project .project-name .user,.projects-by_program .projects .project .project-name .user,.projects-employers .projects .project .project-name .user {
+        width:280px
+    }
+}
+
+.projects-index .projects .project .project-name .comment-link,.projects-by_program .projects .project .project-name .comment-link,.projects-employers .projects .project .project-name .comment-link {
+    font-size: 100%;
+    margin-left: 10px;
+    color: #aaa;
+    height: 20px;
+    float: right;
+    background-image: url(http://fewd.us/assets/comment-icon-gray-09eb6d93a6dce70386e079ade20b8bd5.png);
+    padding-left: 24px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat
+}
+
+.projects-index .projects .project .project-name .comment-link:hover,.projects-by_program .projects .project .project-name .comment-link:hover,.projects-employers .projects .project .project-name .comment-link:hover {
+    color: #ff0033;
+    background-image: url(http://fewd.us/assets/comment-icon-hover-ee78d38f1e045dd1f049ee4b86226d1c.png)
+}
+
+.projects-index .projects .project .project-name .feature-project,.projects-by_program .projects .project .project-name .feature-project,.projects-employers .projects .project .project-name .feature-project {
+    float: right;
+    color: #aaa
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .projects .project .project-name .feature-project,.projects-by_program .projects .project .project-name .feature-project,.projects-employers .projects .project .project-name .feature-project {
+        float:right
+    }
+}
+
+.projects-index .projects .project .project-name .feature-project:hover,.projects-by_program .projects .project .project-name .feature-project:hover,.projects-employers .projects .project .project-name .feature-project:hover {
+    color: gold;
+    cursor: pointer
+}
+
+.projects-index .projects .project .project-name .feature-project.featured-true,.projects-by_program .projects .project .project-name .feature-project.featured-true,.projects-employers .projects .project .project-name .feature-project.featured-true {
+    color: gold;
+    cursor: pointer
+}
+
+.projects-index .projects .project .project-name .metro,.projects-by_program .projects .project .project-name .metro,.projects-employers .projects .project .project-name .metro {
+    background: #aaa;
+    color: white;
+    padding: 3px 6px 2.3px;
+    border-radius: 5px;
+    position: absolute;
+    margin: 0px 8px;
+    font-size: 16px
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .projects .project .project-name .metro,.projects-by_program .projects .project .project-name .metro,.projects-employers .projects .project .project-name .metro {
+        padding:3px 6px 3px
+    }
+}
+
+.projects-index .projects .project .project-name .metro:hover,.projects-by_program .projects .project .project-name .metro:hover,.projects-employers .projects .project .project-name .metro:hover {
+    background: #ff0033
+}
+
+.projects-index .projects .project .project-name li,.projects-by_program .projects .project .project-name li,.projects-employers .projects .project .project-name li {
+    list-style: none
+}
+
+.projects-index .projects .project .project-name .votes,.projects-by_program .projects .project .project-name .votes,.projects-employers .projects .project .project-name .votes {
+    margin-left: 3px
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects-index .projects .project .project-name .votes,.projects-by_program .projects .project .project-name .votes,.projects-employers .projects .project .project-name .votes {
+        margin-left:4px
+    }
+}
+
